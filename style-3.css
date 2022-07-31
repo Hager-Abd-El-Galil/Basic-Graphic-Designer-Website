@@ -1,0 +1,472 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    float: left;
+    height: 10vh;
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+}
+nav ul{
+    float: right;
+    width:48%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Nunito';
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    margin-right: 5%;
+    color: #fff;
+    font-size: 17px;
+    background-color: transparent !important;
+    cursor: pointer;
+    transition:all 0.8s;
+}
+nav ul li:hover{
+    color: #e65f78;
+}
+.Home{
+    color: #e65f78;
+}
+nav h1{
+    font-weight: 900;
+    font-size: 30px;
+    color: #fff;
+    padding-left: 15%;
+    padding-top: 1.3%;
+    padding-bottom: 1.5%;
+    cursor: pointer;
+   
+}
+.header {
+    font-family: montserrat, sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    background-image: url(http://theme.srbthemes.com/kerri/light/images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    
+}
+.overlay-bg{
+    background-color: rgba(0, 0, 0, 0.69);
+    width: 100%;
+    height: 100%;
+}
+.header .welcome{
+    
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 30vh;
+   
+}
+.header .personal-info{
+    
+    font-size: 60px;
+    padding:2%;
+    
+}
+.header .quote{
+    
+    font-size: 14px;
+   
+}
+.header .cv-btn{
+
+    background-color: transparent;
+    border-radius: 30px;
+    border: white solid;
+    width: 180px;
+    height: 50px;
+    margin: 3%;
+    color: #fff;
+    font-size: medium;
+    font-weight: 300;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+.header .cv-btn:hover{
+    background-color: #fff;
+    color: black;
+}
+.About{
+    margin-bottom: 25%;
+    padding: 15%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.About .About-img{
+    float: left;
+    border: rgb(207, 205, 205) solid thin;
+    border-radius: 12px;
+    box-sizing: content-box;
+    padding: 0.5%;
+    
+}
+.About .About-info{
+    float: right;
+    width:46%;
+}
+.About .About-info p{
+    font-size:xx-large;
+}
+.About .About-info p .name{
+    color: #e65f78;
+    font-weight: 200;
+}
+.About .About-info h6{
+    color: gray;
+    font-size: large;
+    font-weight: 100;
+}
+.About .About-info ul{
+    list-style: none;
+    float: right;
+    width: 100%;
+
+}
+.About .About-info ul li{
+   list-style: none;
+   float: left;
+   margin-right: 2.8%;
+   border-radius: 500px;
+   padding: 2.8%;
+   border:rgb(221, 220, 220) solid;
+   cursor:pointer;
+   transition: all 0.8s;
+}
+.About .About-info ul li:hover{
+    color: #e65f78 ;
+    border: #e65f78 solid ;
+}
+.service{
+    clear: both;
+    padding-top: 8%;
+    background-color:  rgb(243, 241, 241);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.service p{
+    color: gray;
+    font-size: large;
+}  
+.service h5{
+    font: 2em sans-serif;
+} 
+.service .service-info {
+    margin: 4%;
+    padding: 1%;
+    border: rgb(230, 229, 229) solid thin;
+    border-radius: 20px;
+    width:25% ;
+    float: left;
+    transition: all 0.8s;
+
+}
+.service .service-info:hover {
+    transform:translateX(15px);
+   
+}
+.service .borders{
+    float: right;
+    padding: 2%;
+    background-color: rgb(243, 241, 241);
+
+}
+.service .service-info .icon{
+    color: #e65f78;
+    font-size:2.5em;
+    
+}
+.service .service-info p{
+    color: black;
+    font-weight: 700;
+    font-size: x-large;
+
+}
+.service .service-info .line{
+    color: #e65f78;
+    font-weight: 900;
+    font-size:2.5em;
+}
+.service .service-info .quote{
+    color: gray;
+
+}
+.service .space { 
+    background-color: #fff;
+    color:#fff}
+.service .freelancer {
+    background-color: #fff;
+    
+}
+.service .freelancer h1 {
+    font-size: 2em;
+}
+
+.service .freelancer button{
+    background-color: #e65f78;
+    border:   #e65f78 solid thin;
+    border-radius: 10px;
+    font-weight: 900;
+    width: 140px;
+    padding: 1%;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+.service .freelancer button:hover{
+    background-color: #bb4258;
+    border:   #bb4258 solid thin;
+
+}
+.client{
+    clear: both;
+    padding-top: 8%;
+    background-color:  rgb(243, 241, 241);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    height: 200vh;
+}
+.client p{
+    color: gray;
+    font-size: large;
+}  
+.client h5{
+    font: 2em sans-serif;
+}
+.client .my-client{
+    border: rgb(230, 229, 229) solid thin;
+    border-radius: 20px;
+    margin: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1%;
+}
+.client .my-client .icon{
+    color: #e65f78;
+    font-size:2.5em; 
+    margin: 2%;
+}
+.client .my-client img{
+    border: rgb(206, 200, 200) solid thin;
+    border-radius: 80px;
+    margin: 2%;
+    padding: 0.5%;
+}
+.client .my-client .quote{
+    color: gray;
+    font-size: large;
+}
+.portofolio{
+    padding-top: 8%;
+    background-color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    height: 130vh;
+}
+.portofolio p{
+    color: gray;
+    font-size: large;
+}  
+.portofolio h5{
+    font: 2em sans-serif;
+}
+.portofolio ul{
+    float: left;
+    width:68%;
+    padding-top: 2%;
+    padding-bottom: 2%;   
+}  
+.portofolio ul li{
+    list-style: none;
+    float: right;
+    text-align: center;
+    margin: 1%;
+    border: rgb(206, 200, 200) solid thin;
+    border-radius: 25px;
+    padding: 1%;
+    font-size: 17px;
+    cursor: pointer;
+    transition:all 0.8s;
+    
+}  
+.portofolio ul li:hover{
+    color: #fff;
+    background-color: #e65f78;
+}
+.portofolio .img{
+    margin:2%;
+    width:29% ;
+    float: left;
+}
+.blog{
+    padding-top: 8%;
+    background-color:  rgb(243, 241, 241);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    height: 120vh;
+}
+.blog p{
+    color: gray;
+    font-size: large;
+}  
+.blog h5{
+    font: 2em sans-serif;
+}
+.blog .border {
+    float: left;
+    background-color: rgb(243, 241, 241); 
+    width: 91%;
+    margin: 3%;
+    
+}
+.blog .border .blog-info{
+    float: right;
+    background-color: #fff;
+    margin: 2%;
+    border: rgb(206, 200, 200) solid thin;
+    border-radius: 25px;
+    padding: 0.8%;
+}
+.blog .border .blog-info p {  
+   color:rgb(41, 40, 40);
+    font-weight: 700;
+    font-size: x-large;
+    cursor: pointer;
+    padding:2%;
+    transition: all 0.8s;
+}
+.blog .border .blog-info p:hover { color: black; }
+.blog .border .blog-info .date {
+    color: gray;
+}
+.blog .border .blog-info .date i{
+    color: #e65f78;
+}
+.blog .border .blog-info .quote {
+    color: gray;
+}
+.blog .border .blog-info .more{
+    color: rgb(95, 95, 95);
+    cursor: pointer;
+    padding: 1%;
+}
+.contact{
+    clear: both;
+    padding-top: 8%;
+    background-color:  #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    height: 120vh;
+}
+.contact p{
+    color: gray;
+    font-size: large;
+}  
+.contact h5{
+    font: 2em sans-serif;
+}
+.contact .call{
+    float: right; 
+    width: 80%;
+    margin: 2%;
+}
+.contact .call .social{
+    float: left;
+    margin: 7%;
+
+}
+.contact .call .social .icon{
+    color: #e65f78;
+    font-size:2.5em;
+}
+.contact .call .social p{
+    color: gray;
+}
+.contact .call .social p b{
+    color: black;
+} 
+.contact .form{
+    clear: both;
+    width: 45%;
+    height: 90vh;
+   
+    margin-right: 3%;
+}
+
+.form form{
+   width: 150%;
+   height: 40vh;
+  float: left;
+  margin: 5%;
+}
+
+.form .form-input1{
+    float: right;
+    display: inline-block;
+    width: 400px;
+    height: 20%;
+    margin-left: 7%;
+    border: rgb(206, 200, 200) solid thin ;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 6px;
+   
+}
+.form .form-input2{
+    float: right;
+    display: block;
+    width: 84%;
+    height: 20%;
+    margin: 1%;
+    border: rgb(206, 200, 200) solid thin ;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 1px;
+}  
+.form .form-btn{
+    width: 25%;
+    padding: 2%;
+    float: right;
+    color: #fff;
+    background-color: #e65f78;
+    border: #e65f78 solid thin;
+    border-radius: 10px;
+    font-weight: 600; 
+    cursor: pointer;
+}
+.footer{
+    clear: both;
+    background-color: rgb(31, 30, 30);
+}
+.footer .icon ul{
+     list-style: none;
+     float: right;
+     width: 55%;
+    margin: 2%;}
+.footer .icon ul li{
+    list-style: none;
+    float: left;
+    margin-right: 2.8%;
+    border-radius: 50px;
+    padding: 1%;
+    border: rgb(24, 23, 23) solid thin;
+    cursor:pointer;
+}
+.footer p{
+    color: rgb(70, 69, 69);
+    text-align: center;
+    padding: 7%;
+    background-color: rgb(31, 30, 30);}
